@@ -1,6 +1,8 @@
 # GroqChat
 Welcome to GroqChat, a locally hosted web interface powered by Groq's lightning-fast inference API, featuring state-of-the-art open-source models such as MixTRL and LLaMA. Experience the speed and efficiency of GroqChat, providing near-instantaneous responses to your queries. Give it a try and see the amazing performance firsthand!
 
+![GroqChat Screenshot](images/groqchat_screenshot.png)
+
 # Features
 - Locally hosted web interface for easy access and customization
 - Utilizes Groq's inference API for fast and efficient model inference
