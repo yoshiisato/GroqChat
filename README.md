@@ -3,23 +3,32 @@ Welcome to GroqChat, a locally hosted web interface powered by Groq's lightning-
 
 ![GroqChat Screenshot](images/groqchat_screenshot.png)
 
-# Features
+## Features
 - Locally hosted web interface for easy access and customization
 - Utilizes Groq's inference API for fast and efficient model inference
 - Supports open-source models like MixTRL and LLaMA
 - Interactive chat interface with conversational memory
 
-#Installation
+## Installation
 To set up GroqChat on your local machine, follow these steps:
 
 1. Clone this repository:
-git clone https://github.com/yourusername/groqchat.git
+`git clone https://github.com/yourusername/groqchat.git`
 2. Install the required Python packages:
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 3. Set up your .env file with your Groq API key: (get API key at https://console.groq.com/keys)
-GroqInferenceProd=your_groq_api_key
+`GroqInferenceProd=your_groq_api_key`
 4. Run the Streamlit app:
-streamlit run app.py
+`streamlit run app.py`
+
+## Usage
+After starting the Streamlit app, navigate to the provided URL in your web browser. You can interact with GroqChat by selecting a model, adjusting the conversational memory length, and typing your questions into the chat input.
+
+## Credits
+- Groq for their inference API
+- To the open-sourced Mixtral and Llama models
+- Streamlit framework for making webdev a breeze
+- Alexmrin for giving me the idea
 
 
 
