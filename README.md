@@ -13,7 +13,7 @@ Welcome to GroqChat, a locally hosted web interface powered by Groq's lightning-
 To set up GroqChat on your local machine, follow these steps:
 
 1. Clone this repository:
-`git clone https://github.com/yourusername/groqchat.git`
+`git clone https://github.com/yoshiisato/GroqChat.git`
 2. Install the required Python packages:
 `pip install -r requirements.txt`
 3. Set up your .env file with your Groq API key: (get API key at https://console.groq.com/keys)
